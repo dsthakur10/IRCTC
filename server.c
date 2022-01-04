@@ -20,7 +20,7 @@
 #define USER "./IRCTC/User"
   
 
-int main(void) 
+int main() 
 { 
     
     int socket_desc, client_sock, c; 
