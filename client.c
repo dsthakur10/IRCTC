@@ -10,7 +10,6 @@
 #include <stdlib.h> 
 
 #include "clientUtils.h"
-//#include "newclient.h"
 	 
 #define PORT 8000
 

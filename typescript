@@ -1,0 +1,61 @@
+Script started on 2022-01-04 19:18:32+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="166" LINES="45"]
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ clearsudo apt-get install git[11Pgit --versionjupyter notebook[3Pgit --versionsudo apt-get install git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit init
+Reinitialized existing Git repository in /home/devendra/Desktop/SS Project/MT2021146/.git/
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mIRCTC/[m
+	[31mREADME.txt[m
+	[31mclient[m
+	[31mclient.c[m
+	[31mclientUtils.h[m
+	[31minit.sh[m
+	[31mserver[m
+	[31mserver.c[m
+	[31mserverUtils.h[m
+	[31mstructures.h[m
+	[31mtypescript[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git add client[K[K[K[K[K[K.
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   IRCTC/Booking[m
+	[32mnew file:   IRCTC/Train[m
+	[32mnew file:   IRCTC/User[m
+	[32mnew file:   README.txt[m
+	[32mnew file:   client[m
+	[32mnew file:   client.c[m
+	[32mnew file:   clientUtils.h[m
+	[32mnew file:   init.sh[m
+	[32mnew file:   server[m
+	[32mnew file:   server.c[m
+	[32mnew file:   serverUtils.h[m
+	[32mnew file:   structures.h[m
+	[32mnew file:   typescript[m
+
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git commit -m "[K[K[K[K[K -m "Initia[K[K[K[K[K[KFinished SS Mini Project"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'devendra@Devendra-Vostro-3500.(none)')
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git remote[K[K[K[K[K[K[K[K[K[Kgit config -- global [C[1P[C[C[C[C[C[C[C u s e r . e m a l [C " " [1@i[C[C[C[1@d[1@e[1@v[1@e[1@n[1@d[1@r[1@a[1@s[1@i[1@n[1@f[1@g[1P[1P[1@g[1@h[1@t[1@h[1@a[1@k[1@u[1@r[1@9[1@8[1@@[1@g[1@m[1@a[1@i[1@l[1@.[1@c[1@o[1@m[C
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git config --global user.email "devendrasinghthakur98@gmail.com" [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@d[1@e[1@v[1@e[1@n[1@d[1P[1P[1P[1P[1P[1P[1@D[1@E[1@V[1@E[1@N[1@D[1@R[1@A[C[C[C[1P[1P[1P[1P[1P[1@n[1@a[1@m[1@e[C[C[C[C[C[C[C[C[C[C[C[C
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git config --global user.name "DEVENDRA" [24@email "devendrasinghthakur98@gmail.com[C[C
