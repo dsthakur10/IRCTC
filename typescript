@@ -58,4 +58,156 @@ Omit --global to set the identity only in this repository.
 fatal: unable to auto-detect email address (got 'devendra@Devendra-Vostro-3500.(none)')
 ]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git remote[K[K[K[K[K[K[K[K[K[Kgit config -- global [C[1P[C[C[C[C[C[C[C u s e r . e m a l [C " " [1@i[C[C[C[1@d[1@e[1@v[1@e[1@n[1@d[1@r[1@a[1@s[1@i[1@n[1@f[1@g[1P[1P[1@g[1@h[1@t[1@h[1@a[1@k[1@u[1@r[1@9[1@8[1@@[1@g[1@m[1@a[1@i[1@l[1@.[1@c[1@o[1@m[C
 ]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git config --global user.email "devendrasinghthakur98@gmail.com" [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@d[1@e[1@v[1@e[1@n[1@d[1P[1P[1P[1P[1P[1P[1@D[1@E[1@V[1@E[1@N[1@D[1@R[1@A[C[C[C[1P[1P[1P[1P[1P[1@n[1@a[1@m[1@e[C[C[C[C[C[C[C[C[C[C[C[C
-]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git config --global user.name "DEVENDRA" [24@email "devendrasinghthakur98@gmail.com[C[C
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git config --global user.name "DEVENDRA" [24@email "devendrasinghthakur98@gmail.com[C[C[25Pmmit -m "Finished SS Mini Project"
+[master (root-commit) a98cf94] Finished SS Mini Project
+ 13 files changed, 1507 insertions(+)
+ create mode 100644 IRCTC/Booking
+ create mode 100644 IRCTC/Train
+ create mode 100644 IRCTC/User
+ create mode 100644 README.txt
+ create mode 100755 client
+ create mode 100644 client.c
+ create mode 100644 clientUtils.h
+ create mode 100755 init.sh
+ create mode 100755 server
+ create mode 100644 server.c
+ create mode 100644 serverUtils.h
+ create mode 100644 structures.h
+ create mode 100644 typescript
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   client.c[m
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git costatus[4Pcommit [K[K[K[K[K[K[K[K commit -m "Rm[Kemoved comment in [C[1@a[1@ [C[C[C[C[C[C[C[C[C[C[Cclient.c"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   client.c[m
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git add .[K.
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   client.c[m
+	[32mmodified:   typescript[m
+
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git status[1Padd .commit -m "Removed a comment in client.c"
+[master 7ae3b02] Removed a comment in client.c
+ 2 files changed, 61 insertions(+), 1 deletion(-)
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git log --oneline
+[?1h=[33m7ae3b02[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Removed a comment in client.c[m
+[33ma98cf94[m Finished SS Mini Project[m
+[K[?1l>]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git log --oneline[K[K[K[K[K[K[K[K[K[K
+[?1h=[33mcommit 7ae3b02ebaee1fd83f464e09783258de5aab43d0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: DEVENDRA <devendrasinghthakur98@gmail.com>[m
+Date:   Tue Jan 4 19:32:37 2022 +0530[m
+[m
+    Removed a comment in client.c[m
+[m
+[33mcommit a98cf948b7f788c4115260303e213c7471a0f52f[m[m
+Author: DEVENDRA <devendrasinghthakur98@gmail.com>[m
+Date:   Tue Jan 4 19:28:38 2022 +0530[m
+[m
+    Finished SS Mini Project[m
+[K[?1l>]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git log --oneline
+[?1h=[33m7ae3b02[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Removed a comment in client.c[m
+[33ma98cf94[m Finished SS Mini Project[m
+[K[?1l>]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git remote add origin https://github.com/dsthakur10/IRCTC.git
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git push o[Korigin master[K[K[K[Kin[K[Kster
+Username for 'https://github.com': dsthakur10
+Password for 'https://dsthakur10@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/dsthakur10/IRCTC.git/'
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git push origin master[1P[1P[1@l[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Username for 'https://github.com': dsthakur10
+Password for 'https://dsthakur10@github.com': 
+warning: no common commits
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 601 bytes | 601.00 KiB/s, done.
+From https://github.com/dsthakur10/IRCTC
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git statuspull origin mastersh[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Username for 'https://github.com': ^X^C
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git config --global credential.helper store
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git pull
+Username for 'https://github.com': ^[[A^[[A^[[A            dsthakur10
+Password for 'https://dsthakur10@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/dsthakur10/IRCTC.git/'
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git pullconfig --global credential.helper storepull[K
+Username for 'https://github.com': dsha  thakyr10    ur10
+Password for 'https://dsthakur10@github.com': 
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git pullconfig --global credential.helper store[21Ppush origin master[12Pstatuspull origin master
+From https://github.com/dsthakur10/IRCTC
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git pull origin master[Kconfig --global credential.helper store[21Ppush origin master
+To https://github.com/dsthakur10/IRCTC.git
+ [31m! [rejected]       [m master -> master (non-fast-forward)
+[31merror: failed to push some refs to 'https://github.com/dsthakur10/IRCTC.git'
+[m[33mhint: Updates were rejected because the tip of your current branch is behind[m
+[33mhint: its remote counterpart. Integrate the remote changes (e.g.[m
+[33mhint: 'git pull ...') before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git push origin masterll[C[C[C[C[C[C[C[C[C[C[C[C[C[C --allow-unrelated-histories
+From https://github.com/dsthakur10/IRCTC
+ * branch            master     -> FETCH_HEAD
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;77H(B[0;7m[ Reading... ](B[m[43;76H(B[0;7m[ Read 6 lines ](B[m[H(B[0;7m  GNU nano 4.8                                          /home/devendra/Desktop/SS Project/MT2021146/.git/MERGE_MSG                                                    [1;165H(B[m[44d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[44;113H(B[0;7mM-A(B[m Mark Text   (B[0;7mM-](B[m To Bracket  (B[0;7mM-Q(B[m Previous[45d(B[0;7m^X(B[m Exit[45;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[45;113H(B[0;7mM-6(B[m Copy Text   (B[0;7m^Q(B[m Where Was    (B[0;7mM-W(B[m Next[43d[2d[39;49m(B[mMerge branch 'master' of https://github.com/dsthakur10/IRCTC[3d[36m# Please enter a commit message to explain why this merge is necessary,[4d# especially if it merges an updated upstream into a topic branch.[5d#[6d# Lines starting with '#' will be ignored, and an empty message aborts[7d# the commit.[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[A[?12l[?25h[?25l[3d[?12l[?25h[?25l[A[?12l[?25h[?25lM[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25l'[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l'[?12l[?25h[?25l[43d[K[2;23H[?12l[?25h[?25lo[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25lh[?12l[?25h[?25lt[?12l[?25h[?25lt[?12l[?25h[?25lp[?12l[?25h[?25ls[?12l[?25h[?25l:[?12l[?25h[?25l/[?12l[?25h[?25l/[?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25lu[?12l[?25h[?25lb[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25l/[?12l[?25h[?25ld[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25la[?12l[?25h[?25lk[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25l1[?12l[?25h[?25l0[?12l[?25h[?25l/[?12l[?25h[?25lI[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5;2H[?12l[?25h[?25l[6;57H[?12l[?25h[?25l[7;14H[?12l[?25h[?25l[8d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[7;14H[?12l[?25h[?25l[6;57H[?12l[?25h[?25l[A[C[?12l[?25h[?25l[4;57H[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5;2H[?12l[?25h[?25l[6;57H[?12l[?25h[?25l[7;14H[?12l[?25h[?25l[8d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[43;77H(B[0;7m[ Writing... ](B[m[1;165H[43;75H(B[0;7m[ Wrote 6 lines ](B[m[8d[?12l[?25h[?25l[43d[J[45d[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[?2004l[KMerge made by the 'recursive' strategy.
+ README.md | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git pull origin master --allow-unrelated-histories[28Psh origin masterll[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kconfig --global credential.helper store[21Ppush origin master[12Pstatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;devendra@Devendra-Vostro-3500: ~/Desktop/SS Project/MT2021146[01;32mdevendra@Devendra-Vostro-3500[00m:[01;34m~/Desktop/SS Project/MT2021146[00m$ git statuspull origin master --allow-unrelated-histories[28Psh origin master
+Enumerating objects: 23, done.
+Counting objects:   4% (1/23)Counting objects:   8% (2/23)Counting objects:  13% (3/23)Counting objects:  17% (4/23)Counting objects:  21% (5/23)Counting objects:  26% (6/23)Counting objects:  30% (7/23)Counting objects:  34% (8/23)Counting objects:  39% (9/23)Counting objects:  43% (10/23)Counting objects:  47% (11/23)Counting objects:  52% (12/23)Counting objects:  56% (13/23)Counting objects:  60% (14/23)Counting objects:  65% (15/23)Counting objects:  69% (16/23)Counting objects:  73% (17/23)Counting objects:  78% (18/23)Counting objects:  82% (19/23)Counting objects:  86% (20/23)Counting objects:  91% (21/23)Counting objects:  95% (22/23)Counting objects: 100% (23/23)Counting objects: 100% (23/23), done.
+Delta compression using up to 8 threads
+Compressing objects:   5% (1/20)Compressing objects:  10% (2/20)Compressing objects:  15% (3/20)Compressing objects:  20% (4/20)Compressing objects:  25% (5/20)Compressing objects:  30% (6/20)Compressing objects:  35% (7/20)Compressing objects:  40% (8/20)Compressing objects:  45% (9/20)Compressing objects:  50% (10/20)Compressing objects:  55% (11/20)Compressing objects:  60% (12/20)Compressing objects:  65% (13/20)Compressing objects:  70% (14/20)Compressing objects:  75% (15/20)Compressing objects:  80% (16/20)Compressing objects:  85% (17/20)Compressing objects:  90% (18/20)Compressing objects:  95% (19/20)Compressing objects: 100% (20/20)Compressing objects: 100% (20/20), done.
+Writing objects:   4% (1/22)Writing objects:   9% (2/22)Writing objects:  13% (3/22)Writing objects:  18% (4/22)Writing objects:  22% (5/22)Writing objects:  27% (6/22)Writing objects:  31% (7/22)Writing objects:  36% (8/22)Writing objects:  40% (9/22)Writing ob
