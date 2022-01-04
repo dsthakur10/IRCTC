@@ -20,6 +20,8 @@
 #define USER "./IRCTC/User"
   
 
+// SCAM OTP FUNCTIONS
+
 int main() 
 { 
     
